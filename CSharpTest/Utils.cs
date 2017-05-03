@@ -20,6 +20,11 @@ namespace CSharpTest
             return Convert.ToInt32((StartDate.Value - EndDate.Value).TotalDays);
         }
 
+        /// <summary>
+        /// Finds the key values that are duplicates in original array of ints.
+        /// </summary>
+        /// <param name="original">Array to be checked for duplicates.</param>
+        /// <returns></returns>
         public static int[] Duplicates(int[] original)
         {
             List<int> duplicates = new List<int>();

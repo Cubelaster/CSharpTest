@@ -9,7 +9,6 @@ namespace CSharpTest
             Console.WriteLine("Hello!");
 
 
-            Console.WriteLine(Utils.DateDiff(null, null));
         }
     }
 }
